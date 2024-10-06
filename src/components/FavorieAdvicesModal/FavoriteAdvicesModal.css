@@ -1,0 +1,73 @@
+.favorite-advices-modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 24px; /* Add padding to account for margin */
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.favorite-advices-modal-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 24px; /* Margin from the top */
+}
+
+.favorite-advices-modal-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.favorite-advices-modal-title h2 {
+    margin-left: 10px;
+}
+
+.favorite-advices-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.favorite-advice-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+}
+
+.favorite-advice-item p {
+    margin: 0;
+}
+
+.advice-timestamp {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.delete-favorite-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    display: flex;
+    align-items: center;
+}
+
+.favorite-advices-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

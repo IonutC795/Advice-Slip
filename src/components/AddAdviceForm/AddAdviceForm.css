@@ -1,0 +1,42 @@
+form {
+    border: 1px solid var(--darkBlue);
+    border-radius: 4px;
+    background-color: var(--darkBlue)
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--lightGreen);
+}
+
+input[type="number"],
+input[type="text"] {
+    width: calc(100% - 18px); 
+    padding: 8px;
+    border: 1px solid var(--darkBlue);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: var(--mediumBlue);
+}
+
+button[type="submit"] {
+    background-color: var(--lightGreen);
+    color: var(--darkBlue);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button[type="submit"]:hover {
+    box-shadow: 0px 0px 30px 0px var(--lightGreen);
+}
+
